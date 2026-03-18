@@ -1,6 +1,7 @@
 import { Toaster } from "react-hot-toast";
 import { Link, Routes, Route } from "react-router-dom";
 import Lab3 from "./LAB/Lab3";
+import Lab4 from "./LAB/lab4";
 import List from "./page/List";
 import Add from "./page/Add";
 import Login from "./page/Login";
@@ -40,6 +41,7 @@ function App() {
 
       <Routes>
         <Route path="/lab3" element={<Lab3 />} />
+        <Route path="/lab4" element={<Lab4 />} />
         <Route path="/list" element={<List />} />
         <Route path="/add" element={<Add />} />
         <Route path="/login" element={<Login />} />

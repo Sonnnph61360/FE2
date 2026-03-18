@@ -1,5 +1,12 @@
 {
-  "stories": [],
+  "categories": [
+    {
+      "title": "Không có tên",
+      "description": "Không có mô tả",
+      "active": true,
+      "id": 1
+    }
+  ],
   "products": [],
   "users": []
 }
