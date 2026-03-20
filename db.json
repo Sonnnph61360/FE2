@@ -1,4 +1,14 @@
 {
+  "stories": [
+    {
+      "id": 1,
+      "title": "Naruto",
+      "author": "Masashi Kishimoto",
+      "image": "https://upload.wikimedia.org/wikipedia/en/9/94/NarutoCoverTankobon1.jpg",
+      "description": "Truyện ninja nổi tiếng",
+      "createdAt": "2024-03-01"
+    }
+  ],
   "categories": [
     {
       "title": "Không có tên",
