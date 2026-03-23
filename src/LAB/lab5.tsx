@@ -2,6 +2,7 @@ import { Table, Image, Spin, Input, Button } from "antd";
 import { useQuery, useMutation, useQueryClient } from "@tanstack/react-query";
 import axios from "axios";
 import { useState } from "react";
+import { useNavigate } from "react-router-dom";
 
 interface Story {
     id: number;
@@ -13,6 +14,7 @@ interface Story {
 }
 
 function Lab5() {
+    const navigate = useNavigate();
     const [keyword, setKeyword] = useState("");
     const queryClient = useQueryClient();
 
@@ -68,12 +70,21 @@ function Lab5() {
         {
             title: "Action",
             render: (_: any, record: Story) => (
-                <Button
-                    danger
-                    onClick={() => deleteMutation.mutate(record.id)}
-                >
-                    Xóa
-                </Button>
+                <div style={{ display: "flex", gap: 8 }}>
+                    <Button
+                        type="primary"
+                        onClick={() => navigate(`/edit/${record.id}`)}
+                    >
+                        Edit
+                    </Button>
+
+                    <Button
+                        danger
+                        onClick={() => deleteMutation.mutate(record.id)}
+                    >
+                        Xóa
+                    </Button>
+                </div>
             ),
         },
     ];

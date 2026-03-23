@@ -1,5 +1,6 @@
 import { Toaster } from "react-hot-toast";
 import { Link, Routes, Route } from "react-router-dom";
+import Lab6 from "./LAB/lab6";
 import Lab5 from "./LAB/lab5";
 import Lab3 from "./LAB/Lab3";
 import Lab4 from "./LAB/lab4";
@@ -44,6 +45,7 @@ function App() {
         <Route path="/lab3" element={<Lab3 />} />
         <Route path="/lab4" element={<Lab4 />} />
         <Route path="/lab5" element={<Lab5 />} />
+        <Route path="/edit/:id" element={<Lab6 />} />
         <Route path="/list" element={<List />} />
         <Route path="/add" element={<Add />} />
         <Route path="/login" element={<Login />} />
