@@ -71,7 +71,6 @@ function List() {
 
   return (
     <div style={{ padding: 20 }}>
-
       <h2>Danh sách sinh viên</h2>
       <Table columns={studentColumns} dataSource={studentData} />
       <h2 style={{ marginTop: 40 }}>Danh sách sản phẩm</h2>
