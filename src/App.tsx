@@ -9,6 +9,7 @@ import Add from "./page/Add";
 import Login from "./page/Login";
 import Register from "./page/Register";
 import Lab7 from "./LAB/lab7";
+import Lab8 from "./LAB/lab8";
 
 function App() {
   return (
@@ -48,6 +49,7 @@ function App() {
         <Route path="/lab5" element={<Lab5 />} />
         <Route path="/edit/:id" element={<Lab6 />} />
         <Route path="/lab7" element={<Lab7 />} />
+        <Route path="/lab8" element={<Lab8 />} />
         <Route path="/list" element={<List />} />
         <Route path="/add" element={<Add />} />
         <Route path="/login" element={<Login />} />

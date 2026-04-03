@@ -17,5 +17,12 @@
     }
   ],
   "products": [],
-  "users": []
+  "users": [
+    {
+      "email": "supebrolyzz@gmail.com",
+      "password": "$2a$10$LD1V2.1hbKAHSdp7YbH/JOWRAlLQoH1CuGGhHNLTqh12xAsCY09EK",
+      "username": "sonnnph61360",
+      "id": 1
+    }
+  ]
 }
